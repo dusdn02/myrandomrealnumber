@@ -11,7 +11,7 @@ namespace myrandomrealnumber
         static void Main(string[] args)
         {
             Random r = new Random();
-           int ran= r.Next();
+           int ran= r.Next(1000);
             while (true)
             {
                 Console.WriteLine("숫자를 입력해주세요 : ");
